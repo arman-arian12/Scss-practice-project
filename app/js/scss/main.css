@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  outline: none;
+}
+
+h1, h2, h3 {
+  margin-top: 0px;
+}
+
+.btn, .btn-download, .btn-learn {
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  padding: 15px 30px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.btn-download, .btn-learn {
+  background-color: aqua;
+  border-radius: 1rem;
+}
+
+.btn-learn {
+  background-color: aliceblue;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  text-align: center;
+  color: white;
+}
+
+main h2, p {
+  text-align: center;
+  color: white;
+}
+
+footer h3 {
+  text-align: center;
+  color: white;
+}
+
+.pra {
+  font-size: 25px;
+}
+
+header {
+  background-color: rgb(24, 183, 223);
+  color: green;
+}
+
+main {
+  background-color: gray;
+  color: green;
+}
+
+footer {
+  background-color: black;
+  color: green;
+  padding: 5px;
+}
+
+.row {
+  background-color: cadetblue;
+  padding: 15px;
+}
+
+article {
+  background-color: gray;
+  padding: 15px;
+}
+
+[class*=col-] {
+  float: left;
+}
+
+.col-1 {
+  width: 8.3333333333%;
+}
+
+.col-2 {
+  width: 16.6666666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3333333333%;
+}
+
+.col-5 {
+  width: 41.6666666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.3333333333%;
+}
+
+.col-8 {
+  width: 66.6666666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.3333333333%;
+}
+
+.col-11 {
+  width: 91.6666666667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.row:after {
+  clear: both;
+  content: "";
+  display: table;
+}/*# sourceMappingURL=main.css.map */
