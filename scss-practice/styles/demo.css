@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: green;
+  color: rgb(177, 23, 31);
+}
+
+nav {
+  margin-top: 15px;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  transition: 0.4s;
+  padding: 10px;
+  border-radius: 5px;
+}
+nav ul li a:hover {
+  background-color: black;
+}
+
+footer {
+  background: rgb(177, 23, 31);
+}/*# sourceMappingURL=demo.css.map */

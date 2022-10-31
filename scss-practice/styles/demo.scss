@@ -1,0 +1,44 @@
+
+// global-apply
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// variable
+$header:green;
+$main:rgb(134, 28, 90);
+$foter:rgb(177, 23, 31);
+
+//css
+header{
+    background: $header;
+    color:$foter;
+}
+
+nav{
+    margin-top: 15px;
+    ul{
+        list-style-type: none;
+        li{
+            display:inline-block;
+            margin: 0 10px;
+            a{
+                display: inline-block;
+                text-decoration: none;
+                color:white;
+                transition: .4s;
+                padding:10px;
+                border-radius: 5px;
+            }
+            a:hover{
+                background-color: black;
+            }
+        }
+    }
+}
+
+
+footer{
+    background:$foter;
+}
